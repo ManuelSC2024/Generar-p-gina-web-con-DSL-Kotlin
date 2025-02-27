@@ -122,4 +122,6 @@ fun main() {
         }
     }
     println(myHTML)
+    val file = File("pagina.html")
+    file.writeText(myHTML.toString())
 }
